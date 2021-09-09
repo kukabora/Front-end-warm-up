@@ -1,0 +1,50 @@
+.personal-info {
+    padding: 0px;
+}
+
+.profilePhoto {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/profilePhoto.jpg');
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 250px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.profileName {
+    margin: 0%;
+    color: black;
+    font-weight: 500;
+    font-size: calc(1vw + 1rem);
+}
+
+.underPhoto {
+    padding: 20px;
+}
+
+.custom-icon {
+    color: #26a69a;
+    margin-right: 10px;
+}
+
+.postIconInfo {
+    font-weight: 500;
+    color: gray;
+}
+
+.largeInfo {
+    font-weight: 700;
+}
+
+.skillsBlock {
+    padding: 20px;
+}
+
+.languageSection {
+    padding: 20px;
+}

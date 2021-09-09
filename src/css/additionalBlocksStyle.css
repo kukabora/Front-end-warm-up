@@ -1,0 +1,51 @@
+.work-experience {
+    padding: 20px;
+}
+
+.workExperienceHeader {
+    font-size: calc(1vw + 1em);
+}
+
+.jobHeader {
+    padding-left: 15px;
+    font-weight: 600;
+    color: rgb(138, 138, 138);
+}
+
+.work-icon {
+    padding-left: 15px;
+}
+
+.dateParagraph {
+    color: #26a69a;
+}
+
+.current-btn {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: calc(0.5vw + 0.5em);
+    font-weight: 500;
+    color: white;
+    background-color: #26a69a;
+    border-radius: 5px;
+}
+
+.date-info {
+    padding-left: 20px;
+}
+
+.job-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.education-info {
+    padding: 20px;
+}
+
+.education-header {
+    padding-left: 15px;
+    font-weight: 600;
+    color: rgb(138, 138, 138);
+    font-size: calc(1vw + 1em);
+}
