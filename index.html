@@ -17,7 +17,7 @@
     <div class="row">
         <div class="personal-info col s12 m4 custom-card" style="padding: 0%;">
             <div>
-                <div class="profilePhoto">
+                <div class="profilePhoto materialboxed">
                     <p class="profileName">Jane Doe</p>
                 </div>
                 <div class="underPhoto">
@@ -106,30 +106,33 @@
                     <i class="small material-icons custom-icon">book</i>
                     <span class="education-header">Education</span>
 
-                    <div class="education-section">
-                        <p class="jobHeader">W3schools.com</p>
-                        <i class="tiny material-icons custom-icon work-icon">date_range</i>
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header">W3schools.com</div>
+                            <div class="collapsible-body">
+                            <i class="tiny material-icons custom-icon work-icon">date_range</i>
                         <span class="dateParagraph">Forever</span>
                         <p class="date-info">Web development! All i need to know in one place!</p>
-                    </div>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">School of coding</div>
+                            <div class="collapsible-body">
+                                <i class="tiny material-icons custom-icon work-icon">date_range</i>
+                                <span class="dateParagraph">2010 - 2013</span>
+                                <p class="date-info">Bachelor degree</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">London business school</div>
+                            <div class="collapsible-body">
+                                <i class="tiny material-icons custom-icon work-icon">date_range</i>
+                                <span class="dateParagraph">2010 - 2013</span>
+                                <p class="date-info">Bachelor degree</p>
+                            </div>
+                        </li>
+                    </ul>
 
-                    <hr>
-
-                    <div class="education-section">
-                        <p class="jobHeader">London business school</p>
-                        <i class="tiny material-icons custom-icon work-icon">date_range</i>
-                        <span class="dateParagraph">2013 - 2015</span>
-                        <p class="date-info">Master degree</p>
-                    </div>
-                    <hr>
-
-                    <div class="education-section">
-                        <p class="jobHeader">School of coding</p>
-                        <i class="tiny material-icons custom-icon work-icon">date_range</i>
-                        <span class="dateParagraph">2010 - 2013</span>
-                        <p class="date-info">Bachelor degree</p>
-                    </div>
-                    <hr>
 
                 </div>
             </div>
@@ -139,6 +142,21 @@
         <p class="footer-text center-align">Find me on social media</p>
         <p class="footer-text center-align">Powered by <u>w3.css</u></p>
     </footer>
+    <script type="text/javascript" src="src/js/materialize.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    let  options = {};
+    var instances = M.Materialbox.init(elems, options);
+    });
+    </script>
+    <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    let options = {};
+    var instances = M.Collapsible.init(elems, options);
+  });
+    </script>
 </body>
 
 </html>
